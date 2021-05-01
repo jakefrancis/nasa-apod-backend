@@ -1,6 +1,6 @@
 # nasa-apod-backend
 
-Backend for the infinite scrolling Astronomy Picture of the Day React App.
+Backend for my infinite scrolling Astronomy Picture of the Day React App.
 
 Serves as a proxy server to protect the identity of a Nasa API key.
 
