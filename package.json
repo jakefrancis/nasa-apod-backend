@@ -8,7 +8,8 @@
     "start": "NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "build:ui": "rm -rf build && cd ../nasa-apod/ && npm run build --prod && cp -r build ../nasa-apod-backend"
   },
   "author": "",
   "license": "ISC",
