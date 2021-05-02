@@ -10,7 +10,9 @@ If a request has never been made before then, a GET request is sent to the NASA 
 
 Clone or download this repository.
 
-```git clone git@github.com:jakefrancis/nasa-apod-backend.git```
+```
+git clone git@github.com:jakefrancis/nasa-apod-backend.git
+```
 
 Install the required dependencies.
 
