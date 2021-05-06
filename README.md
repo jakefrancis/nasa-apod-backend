@@ -1,5 +1,7 @@
 # nasa-apod-backend
 
+Get the frontend source code [here](https://www.github.com/jakefrancis/nasa-apod)
+
 Backend for my infinite scrolling Astronomy Picture of the Day React App.
 
 Serves as a proxy server to protect the identity of a Nasa API key.
@@ -27,6 +29,15 @@ API_KEY=YOUR_API_KEY
 MONGODB_URI=ADDRES_OF_YOUR_MONGODB_SERVER
 TEST_MONGODB_URI=ADDRES_OF_YOUR_MONGODB_TEST_SERVER
 ```
+To build the [frontend](https://www.github.com/jakefrancis/nasa-apod) make sure both nasa-apod and nasa-apod-backend are in the same base folder
+
+```
+base/
+  ├─ nasa-apod/
+  ├─ nasa-apod-background/
+       
+```
+Then run ```npm run build:ui```
 
 To start a production server.
 
